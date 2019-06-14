@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, dd, dl, dt, li, ol, ul,input,select,button,textarea { padding:0; margin:0; border:none;}
+input,button,select,textarea,a,img{outline:none; }/*去掉超链接或按钮点击时出现的虚线框黄色边框*/
+::-moz-focus-inner{border:0px;}/*火狐的私有属性去掉点击时边框*/
+body {font-size:12px; width:100%;  font-family:"Microsoft YaHei","Arial", "SimSun";}
+html{ width:100%;}
+a img {	border:none;}
+ul, ul li, ol li, li {	list-style:none;}
+h1, h2, h3, h4, h5, h6{font-weight: normal;}
+table {	border-collapse: collapse;border-spacing:0;}
+input, textarea {border: 0;}
+.clearfix:after {visibility: hidden;display: block;font-size: 0;content: ".";clear: both;height: 0;}
+* html .clearfix {zoom: 1;}
+*:first-child + html .clearfix {zoom: 1;}
+.fl {	float:left;}
+.fr {	float:right;}
+.none{	display:none;}
+i{font-style: normal;}
+a{ /*cursor:pointer; */text-decoration:none;}
+a:hover{text-decoration:none;}
+.tx_over{display:block;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+body{width:100%;  font: 400 14px/1.5 'Microsoft YaHei', 'Helvetica', 'Arial', 'sans-serif';}
+
+
+/*首页 正在热映 即将上映  热播电影公共样式 s*/
+.wrap-content{
+    /*outline: 5px solid aqua;*/
+}
+.hot-play,.hot-play .all{
+    color: #ef4238;
+}
+.advance,.advance .all{
+    color: #409ef3;
+}
+.today .ry{
+    color: #ef4238;
+}
+.rebo,.rebo .all{
+    color: #ef4238;
+}
+.total,.total .all{
+    color: #ef4238;
+}
+.wishes,.wishes .all{
+color: #ffb400;
+}
+.order,.order .all{
+    color: #ffb400;
+}
+.ry{
+    font-size: 26px;
+}
+.all{
+    padding-right: 12px;
+    font-size: 14px;
+    line-height: 39px;
+}
+.hot-play .all{
+    background: url(../images/all.png) no-repeat center right
+}
+.advance .all{
+    background: url(../images/blue-arrow.png) no-repeat center right
+}
+.rebo .all{
+    background: url(../images/red-arrow.png) no-repeat center right
+}
+.total .all{
+    background: url(../images/red-arrow.png) no-repeat center right
+}
+.wishes .all,.order .all{
+    background: url(../images/yellow-arrow.png) no-repeat center right
+}
+.hot-play .all:hover,.advance .all:hover,.rebo .all:hover,.total .all:hover,.wishes .all:hover{
+    text-decoration: underline;
+}
+/*电影类型D等级分类定位*/
+.hot-ul li .d-classify,.rebo-l .d-classify ,.rebo-ul li .d-classify,.advance-ul li .d-classify{
+    position: absolute;
+    left: -2px;
+    top: 4px;
+    z-index: 3;
+
+}
+
+/*首页 正在热映 即将上映  热播电影公共样式 e*/
+/*hover img and opacity 公用*/
+/*.op_a{position:absolute;left:0; top:0; width:100%; height:100%;}*/
+/*.op_a1{position:absolute;left:50%; top:50%; width:100%; height:100%;}*/
+/*.op60{ background:url(../images/opa60.png);}*/
+/*.op50{ background:url(../images/op50.png);}*/
+/*.op40_i{ background:url(../images/op40.png);}*/
+/*.opa_8{background:url(../images/w_opa80.png)}*/
+/*.rgb4{ background:rgba(0,0,0,.4);  filter:progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorstr=#40000000,endColorstr=#40000000); }*/
+/*.rgb6{background-color:rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorstr=#99000000,endColorstr=#99000000);}*/
+/*.optc{position:fixed!important; z-index:99; background:url(../images/op50.png);}*/
+/*.animate_img{position:relative; overflow:hidden;}*/
+/*.zoom_img{transform: scale(1.1); -webkit-transform: scale(1.1); -moz-transform: scale(1.1);}*/
+/*.zoom_box>li:hover .op_a{opacity:1; filter:alpha(opacity=100);}*/
+/*.zoom_box>li:hover .op50{opacity:1; filter:alpha(opacity=100);}*/
+/*.zoom_box>li:hover .w_op80{opacity:1; filter:alpha(opacity=100);}*/
+/*.zoom_box .op_a,.zoom_box .op_a1{text-align:center; opacity:0;  filter:alpha(opacity=0); }*/
+/*.animate{-webkit-transition-duration: 0.3s;-moz-transition-duration: 0.3s;transition-duration: 0.3s;-o-transition-duration: 0.3s; -ms-transition-duration: 0.3;}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

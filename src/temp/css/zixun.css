@@ -1,0 +1,306 @@
+@charset "UTF-8";
+.position-r {
+  position: relative;
+}
+.position-a {
+  position: absolute;
+}
+.dsi {
+  display: inline-block;
+}
+.dsb {
+  display: block;
+}
+.wrap-box {
+  margin: 81px auto 0;
+  width: 1200px;
+}
+.left-content {
+  width: 735px;
+}
+.right-content {
+  width: 365px;
+}
+.border {
+  border: 1px solid #ccc;
+}
+.d-img {
+  position: absolute;
+  top: 4px;
+  left: -2px;
+}
+.hover {
+  text-decoration: underline;
+}
+/*资讯 css*/
+.wrap {
+  margin: 81px auto 0;
+  width: 1200px;
+  /*左边 css*/
+  /* 右边 css*/
+}
+.wrap .left-cont {
+  width: 735px;
+}
+.wrap .left-cont .tit {
+  padding: 60px 0 30px;
+  font-size: 35px;
+  color: #222222;
+  font-weight: bold;
+  text-align: left;
+}
+.wrap .left-cont .miao {
+  font-size: 12px;
+  color: #999999;
+}
+.wrap .left-cont .miao i {
+  margin: 0 2px 0 5px;
+  vertical-align: baseline;
+  height: 14px;
+}
+.wrap .left-cont .miao .time {
+  margin: 0 10px 0;
+}
+.wrap .left-cont .miao .eyes1 {
+  display: inline-block;
+  width: 18px;
+  background: url(../images/eyes1.png) no-repeat;
+}
+.wrap .left-cont .describe {
+  margin: 48px 0 32px;
+  font-size: 14px;
+  color: #333333;
+  line-height: 28px;
+}
+.wrap .left-cont .img-box {
+  overflow: hidden;
+}
+.wrap .left-cont .red-tit {
+  color: #e33737;
+  font-size: 28px;
+  font-weight: bold;
+}
+.wrap .left-cont .red-det {
+  color: #e33737;
+  font-size: 18px;
+  font-weight: bold;
+}
+.wrap .left-cont .black-tit {
+  margin: 20px 0 30px;
+  color: #333333;
+  font-size: 18px;
+  font-weight: bold;
+}
+.wrap .left-cont .share {
+  text-align: center;
+}
+.wrap .left-cont .share .write {
+  display: inline-block;
+  margin-left: 25px;
+  border-radius: 38px;
+  -moz-border-radius: 38px;
+  -webkit-border-radius: 38px;
+  color: #ef4238;
+  text-align: center;
+  font-size: 14px;
+  border: 1px solid #ef4238;
+  background: #fff;
+}
+.wrap .left-cont .share .write:hover {
+  text-decoration: none;
+}
+.wrap .left-cont .share .redzan {
+  padding: 14px 14px 11px 44px;
+  background: url(../images/redzan.png) no-repeat 12px center;
+}
+.wrap .left-cont .share .redshare {
+  padding: 14px 14px 11px 44px;
+  background: url(../images/redshare.png) no-repeat 12px center;
+}
+.wrap .left-cont .short-comment .jq-head {
+  margin: 80px auto 28px;
+  line-height: 21px;
+}
+.wrap .left-cont .short-comment .jq-head .mark {
+  display: inline-block;
+  float: left;
+  margin-right: 5px;
+  width: 4px;
+  height: 18px;
+  vertical-align: middle;
+  background: #e33737;
+}
+.wrap .left-cont .short-comment .jq-head h3 {
+  float: left;
+  font-size: 18px;
+  color: #333;
+}
+.wrap .left-cont .short-comment .discuss .discuss-info span,
+.wrap .left-cont .short-comment .discuss .discuss-info span img {
+  display: block;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+.wrap .left-cont .short-comment .discuss .discuss-info span i,
+.wrap .left-cont .short-comment .discuss .discuss-info span img i {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  background: url(../images/v3.png) no-repeat;
+  z-index: 2;
+}
+.wrap .left-cont .short-comment .discuss .discuss-info span .v4,
+.wrap .left-cont .short-comment .discuss .discuss-info span img .v4 {
+  background: url(../images/v4.png) no-repeat;
+}
+.wrap .left-cont .short-comment .discuss .discuss-detail {
+  padding: 20px 0;
+  width: 660px;
+  border-bottom: 1px solid #ccc;
+}
+.wrap .left-cont .short-comment .discuss .discuss-detail .username {
+  font-size: 16px;
+  color: #333;
+}
+.wrap .left-cont .short-comment .discuss .discuss-detail .xji {
+  line-height: 20px;
+}
+.wrap .left-cont .short-comment .discuss .discuss-detail .xji span {
+  float: left;
+  font-size: 16px;
+  color: #ccc;
+}
+.wrap .left-cont .short-comment .discuss .discuss-detail .xji p {
+  padding-bottom: 10px;
+  line-height: 26px;
+  font-size: 14px;
+  color: #999;
+}
+.wrap .left-cont .short-comment .discuss .discuss-detail .xji p a {
+  display: inline-block;
+  margin: 0 9px 0 ;
+  vertical-align: baseline;
+  width: 16px;
+  height: 16px;
+  background: url(../images/zan.png) no-repeat;
+}
+.wrap .left-cont .short-comment .discuss .discuss-detail .shu {
+  padding: 10px 0;
+}
+.wrap .left-cont .short-comment .discuss .discuss-detail .response {
+  margin: 15px 0;
+  padding: 20px 15px;
+  position: relative;
+  width: 635px;
+  line-height: 26px;
+  background: #eee;
+}
+.wrap .left-cont .short-comment .discuss .discuss-detail .response .triangle {
+  position: absolute;
+  left: 20px;
+  top: -14px;
+  width: 0;
+  height: 5px;
+  display: inline-block;
+  border: 5px solid transparent;
+  border-bottom: 5px solid #eee;
+}
+.wrap .left-cont .short-comment .discuss .discuss-detail .response a {
+  color: #ccc;
+}
+.wrap .left-cont .short-comment .discuss .discuss-detail .response p {
+  color: #333;
+}
+.wrap .left-cont .short-comment .look-more {
+  margin-top: 30px;
+  text-align: center;
+}
+.wrap .left-cont .short-comment .look-more a {
+  color: #e33737;
+}
+.wrap .left-cont .short-comment .look-more a i {
+  font-family: "simsun";
+  font-weight: bold;
+}
+.wrap .left-cont .short-comment .look-more a:hover {
+  text-decoration: underline;
+}
+.wrap .right-cont {
+  width: 365px;
+}
+.wrap .right-cont .jq-head {
+  margin: 80px auto 28px;
+  line-height: 21px;
+}
+.wrap .right-cont .jq-head .mark {
+  display: inline-block;
+  float: left;
+  margin-right: 5px;
+  width: 4px;
+  height: 18px;
+  vertical-align: middle;
+  background: #e33737;
+}
+.wrap .right-cont .jq-head h3 {
+  float: left;
+  font-size: 18px;
+  color: #333;
+}
+.wrap .right-cont .about-ul {
+  width: 373px;
+  margin-left: -9px;
+}
+.wrap .right-cont .about-ul li {
+  margin: 9px;
+  width: 106px;
+}
+.wrap .right-cont .about-ul li .img-a {
+  display: block;
+  height: 145px;
+  width: 106px;
+}
+.wrap .right-cont .about-ul li .img-a .img-size {
+  height: 145px;
+  width: 106px;
+  border: 1px solid #ccc;
+}
+.wrap .right-cont .movie-ul li,
+.wrap .right-cont .about-ul li {
+  float: left;
+  position: relative;
+}
+.wrap .right-cont .movie-ul li .d-max i,
+.wrap .right-cont .about-ul li .d-max i {
+  position: absolute;
+  top: 4px;
+  left: -2px;
+}
+.wrap .right-cont .movie-ul li .h3-tit,
+.wrap .right-cont .about-ul li .h3-tit {
+  font-size: 15px;
+  line-height: 41px;
+  text-align: center;
+}
+.wrap .right-cont .movie-ul li .h3-tit a,
+.wrap .right-cont .about-ul li .h3-tit a {
+  color: #333;
+}
+.wrap .right-cont .movie-ul li .score,
+.wrap .right-cont .about-ul li .score {
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  color: #ffb400;
+}
+.wrap .right-cont .movie-ul li .score i,
+.wrap .right-cont .about-ul li .score i {
+  font-size: 15px;
+  font-style: italic;
+}
